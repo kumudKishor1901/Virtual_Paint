@@ -18,7 +18,7 @@ Build the Project: Use your preferred C++ compiler to build the project. Make su
  
 css
 Copy code - 
-`g++ -o virtual_paint virtual_paint.cpp `pkg-config --cflags --libs opencv4``
+`g++ -o virtual_paint virtual_paint.cpp "pkg-config --cflags --libs opencv4"`
 # Usage
 Connect Webcam: Ensure your webcam is connected to the system.
 
