@@ -12,13 +12,13 @@ Install OpenCV: Ensure you have OpenCV 4.x installed on your system. You can fol
 Clone the Repository: Clone this repository to your local machine using the following command:
 
 bash
-Copy code
-git clone <repository_url>
+Copy code - 
+`git clone <repository_url>`
 Build the Project: Use your preferred C++ compiler to build the project. Make sure to link against the OpenCV libraries. For example, you can use g++:
  
 css
-Copy code
-g++ -o virtual_paint virtual_paint.cpp `pkg-config --cflags --libs opencv4`
+Copy code - 
+`g++ -o virtual_paint virtual_paint.cpp `pkg-config --cflags --libs opencv4``
 # Usage
 Connect Webcam: Ensure your webcam is connected to the system.
 
